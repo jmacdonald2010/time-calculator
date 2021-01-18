@@ -1,2 +1,4 @@
 # time-calculator
-A function that takes a given time and adds a duration to it, and calculates how many days later and the day of the week.
+This project is a python function that takes a time in 12-hour format as a string, a second string with a duration in minutes and seconds, and then adds that duration to the given time. The function also takes an optional third argument as a string containing a day of the week. If the resulting time would be on the next day, the function will also return if the time would be on the next day, or how many days later it would be if more than one. If a day of the week is provided, it will also return the day of the week that the resulting time.
+
+This project was completed in part for the freeCodeCamp "Scientific Computing in Python" course.
